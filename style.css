@@ -1,0 +1,232 @@
+body{
+    margin: 0;
+    font-family: Corbel;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+header{
+    /* border: 2px solid blue; */
+    padding-top: 40px;
+}
+
+.container{
+    max-width: 1100px;
+    /* border: 2px solid red; */
+    margin: 0 auto;
+    /* padding: calc(550px - 20%); */
+}
+
+h1{
+    font-size: 64px;
+    color: #14931F;
+    line-height: 77px;
+    text-align: center;
+}
+.top-text{
+    font-size: 24px;
+    color: #646F75;
+    text-align: center;
+    line-height: 29px;
+    width: 420px;
+    margin: 0 auto;
+}
+
+/* button */
+/* .btn{
+    width: 145px;
+    height: 52px;
+    border-radius: 25px;
+    background-color: #14931F;
+    font-weight: 700;
+    font-size: 24px;
+    color: #fff;
+    border: none;
+    margin: 0 auto;
+    display: block;
+} */
+/* a */
+.btn{
+    width: 145px;
+    height: 52px;
+    border-radius: 25px;
+    background-color: #14931F;
+    font-weight: 700;
+    font-size: 24px;
+    color: #fff;
+    margin: 0 auto;
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    padding: 8px;
+    margin-top: 50px;
+}
+
+main{
+    /* border: 2px solid gray; */
+    /*padding: 125px 0;*/
+}
+
+h2{
+    color: #14931F;
+    text-align: center;
+    font-size: 48px;
+    margin-top: 0;
+    margin-bottom: 80px;
+}
+.servises{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.item{
+    background-color: #DFDBF5;
+    width: 320px;
+    height: 120px;
+    font-size: 24px;
+    color: #646F75;
+    text-align: center;
+    line-height: 29px;
+    border-radius: 45px;
+    margin-bottom: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.section-prices{
+    background-color: #DFDBF5;
+    padding: 100px 0 170px 0;
+}
+
+.cards{
+    display: flex;
+    justify-content: space-between;
+}
+
+.card{
+    /* border: 2px solid red; */
+    width: 320px;
+    background-color: #fff;
+    color: #646F75;
+    border-radius: 45px;
+    padding: 40px;
+}
+
+.cardmiddle {
+    /* border: 2px solid red; */
+    width: 320px;
+    background-color: #14931F;
+    color: #fff;
+    border-radius: 45px;
+    padding: 40px;
+}
+
+
+h3{
+    color: #14931F;
+    text-align: center;
+    font-size: 36px;
+    line-height: 43.5px;
+    margin: 0 0 55px;
+}
+
+li{
+    position: relative;
+    list-style: none;
+    margin-bottom: 15px;
+    font-size: 18px;
+    line-height: 21px;
+}
+li:before{
+    content: '';
+    display: block;
+    width: 20px;
+    height: 16px;
+    position: absolute;
+    top: 3px;
+    left: -33px;
+    background-image: url(icon.svg);
+    background-repeat: no-repeat;
+}
+
+.cardmiddle li:before{
+    content: '';
+    display: block;
+    width: 20px;
+    height: 16px;
+    position: absolute;
+    top: 3px;
+    left: -33px;
+    background-image: url(vector.svg);
+    background-repeat: no-repeat;
+}
+
+.cardmiddle h3{
+    color: #fff;
+    text-align: center;
+    font-size: 36px;
+    line-height: 43.5px;
+    margin: 0 0 55px;
+}
+
+.price{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.price span{
+    font-size: 48px;
+}
+
+.price .btn {
+    width: 145px;
+    height: 50px;
+    background: #FFFFFF;
+    border: 1px solid #646F75;
+    border-radius: 25px;
+    font-size: 24px;
+    color: #646F75;
+    font-weight: bold;
+    text-decoration: none;
+    margin: 0;
+}
+
+.price .btn:hover {
+    width: 145px;
+    height: 50px;
+    background: #14931F;
+    border: 1px solid #14931F;
+    border-radius: 25px;
+    font-size: 24px;
+    color: #fff;
+    font-weight: bold;
+    text-decoration: none;
+    margin: 0;
+}
+
+.cardmiddle .price .btn:hover {
+    width: 145px;
+    height: 50px;
+    background: #DFDBF5;
+    border: 1px solid #DFDBF5;
+    border-radius: 25px;
+    font-size: 24px;
+    color: #fff;
+    font-weight: bold;
+    text-decoration: none;
+    margin: 0;
+}
+
+footer{
+    background-color: #14931F;
+    font-size: 18px;
+    color: #fff;
+    text-align: center;
+    line-height: 22px;
+    padding: 36px 0;
+}
